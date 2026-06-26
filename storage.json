@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "date": "2026-06-25 11:04:46",
+        "description": "kjhgfch",
+        "expense": 20023
+    },
+    {
+        "id": 2,
+        "date": "2026-06-25 11:08:13",
+        "description": "kjhgf2ch",
+        "expense": 243
+    },
+    {
+        "id": 3,
+        "date": "2026-06-26 06:23:09",
+        "description": "2334",
+        "expense": 0
+    },
+    {
+        "id": 4,
+        "date": "2026-06-26 09:14:03",
+        "description": "new",
+        "expense": 7654
+    }
+]
