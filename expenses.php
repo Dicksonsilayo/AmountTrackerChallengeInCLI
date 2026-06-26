@@ -141,23 +141,40 @@ $tracker=new ExpenseTracker;
 $command = $argv['1']?? null;
 switch($command){
     case "add":
+          if(!isset($argv[2])){
+                    echo "usage php expenses.php add 'description' 'expense' ";
+                }
         $tracker->addExpense($argv[2],$argv[3]);
         exit;
         case "update":
+              if(!isset($argv[2])){
+                    echo "usage php expenses.php update 'id to update' 'new description' 'new expense'";
+                }
             $tracker->updateExpense($argv[1],$argv[2],$argv[3]);
             exit();
             case "delete":
+                if(!isset($argv[2])){
+                    echo "usage php expenses.php delete 'id to delete eg 1'";
+                }
                 $tracker->deleteExpense($argv[2]);
                 exit;
                 case "viewAll":
                     $tracker->viewAllExpenses($argv[2]);
                     exit;
                     case "month":
+                        if(!isset($argv[2])){
+                            echo "usage : php expenses.php month '07'\n";
+                        }
                         $tracker->getmonthlyExpenses($argv[2],$argv[3]);
                         exit;
 case "filterFrom":
+    if(!isset($argv[2])){
+        echo "usage :php expenses.php viewAll \n";
+    }
     $tracker->filteredExpenses($argv[2],$argv[3]);
     exit;
+    default:
+    echo "invalid command";
 
 }
 ?>
