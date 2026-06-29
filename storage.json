@@ -22,5 +22,41 @@
         "date": "2026-06-26 09:14:03",
         "description": "new",
         "expense": 7654
+    },
+    {
+        "id": 5,
+        "date": "2026-06-26 21:16:10",
+        "description": "wer",
+        "expense": 0
+    },
+    {
+        "id": 6,
+        "date": "2026-06-26 21:16:37",
+        "description": "",
+        "expense": 0
+    },
+    {
+        "id": 7,
+        "date": "2026-06-26 21:17:42",
+        "description": "wer",
+        "expense": 0
+    },
+    {
+        "id": 8,
+        "date": "2026-06-26 21:32:57",
+        "description": "wer",
+        "expense": 0
+    },
+    {
+        "id": 9,
+        "date": "2026-06-26 21:33:02",
+        "description": "",
+        "expense": 0
+    },
+    {
+        "id": 10,
+        "date": "2026-06-29 10:25:09",
+        "description": "wer",
+        "expense": 0
     }
 ]
